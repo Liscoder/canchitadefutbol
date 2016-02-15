@@ -1,0 +1,55 @@
+.circulo{width: 320px;
+         height: 320px;
+         border-radius: 50%;
+         background:#8CB27C;
+         border: 1px solid white;
+     }
+
+.figura{background-color:#8CB27C;
+        border: 1px solid white;
+        display:inline-block;
+        position: relative;
+        left:100px;
+        top:30px;
+    }
+.exterior{
+width: 1000px; 
+ height: 450px;
+ position: relative;
+ left:100px;
+        top:20px;
+}
+.padre{
+background-color:#8CB27C;	
+width: 1200px; 
+height: 500px;
+position: relative;
+left:50px;
+
+}
+.rectangulo{
+ width: 200px; 
+ height: 350px;
+ display:inline-block;
+ position: relative;
+ }
+.left{
+	left:0;
+	}
+.right{
+	left:266px;
+	  }
+ .left img{
+ 	right:-190px;
+ 	top:4px;
+position:relative;}
+.right img{
+  left:-50px;
+ 	bottom:-350px;
+position:relative;
+}
+.circulo img{
+	right:-220px;
+ 	top:-20px;
+position:relative;
+}
